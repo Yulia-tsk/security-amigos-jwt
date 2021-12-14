@@ -12,10 +12,10 @@ import java.util.List;
 @RequestMapping("api/v1/students")
 public class StudentController {
 
-    @GetMapping("/")
-    public String welcome(){
-        return "index";
-    }
+//    @GetMapping("/home")
+//    public String welcome(){
+//        return "index";
+//    }
 
     private static final List<Student> STUDENTS = Arrays.asList(
             new Student(1, "James Jones"),
